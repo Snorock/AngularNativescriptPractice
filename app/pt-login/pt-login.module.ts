@@ -8,4 +8,4 @@ import { LoginComponent } from './pt-login.component';
     declarations: [LoginComponent],
     providers: [],
 })
-export class NameModule { }
+export class LoginModule { }
