@@ -20,7 +20,9 @@ import {LoginModule} from './pt-login/pt-login.module';
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        PtBacklogModule,
+        LoginModule
     ],
     declarations: [
         AppComponent

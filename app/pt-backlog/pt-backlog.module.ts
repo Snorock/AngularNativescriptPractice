@@ -5,8 +5,9 @@ import {PipesModule} from './pipes/pipes.module'
 
 @NgModule({
     imports: [PipesModule],
-    exports: [],
+    exports: [PtBacklogComponent],
     declarations: [PtBacklogComponent],
     providers: [],
 })
 export class PtBacklogModule { }
+
