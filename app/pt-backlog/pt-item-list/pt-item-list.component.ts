@@ -18,10 +18,14 @@ export class PTItemListComponent implements OnInit {
         this.ptItems = ITEMS;
     }
 
-    public listItemTap(args: any){
+    public listItemTap(args: any) {
         let lv = args.object;
         let item = lv.items[args.index];
         alert(item.title);
+    }
+
+    public getIndicatorClass(item: IPTItem) {
+        return ItemTypeEnum.getIndicatorClass(item.type);
     }
 }
 
